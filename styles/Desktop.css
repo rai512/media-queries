@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    background-image: url(../imagens/back-pc.jpg);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+img {
+    width: 150px;
+    
+}
+
+#i-pc, #h1-pc {
+    display: block;
+}
+
+#i-phone, #h1-mobile {
+    display: none;
+}

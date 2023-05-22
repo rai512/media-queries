@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) center center / cover no-repeat fixed;
+    color: aliceblue;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5vh;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.596);
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+#i-pc, #i-tv, #h1-pc, #h1-tv{
+    display: none;
+}
